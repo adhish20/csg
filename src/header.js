@@ -16,10 +16,10 @@ const styles = theme => ({
     height: 110
   },
   Heading: {
-    paddingTop: '40px'
+    paddingTop: '45px'
   },
   flexGrow: {
-    flex: '1 1 auto',
+    flex: 'auto',
   },
 });
 
