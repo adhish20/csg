@@ -5,15 +5,21 @@ import Typography from 'material-ui/Typography';
 
 const styles = theme => ({
   card: {
-    display: 'flex',
+    display: 'flex'
   },
-  details: {
-    display: 'flex',
-    flexDirection: 'column',
+  CSGmedia: {
+    width: 110,
+    height: 110,
   },
-  media: {
-    width: 100,
-    height: 100,
+  IIITmedia: {
+    width: 210,
+    height: 110
+  },
+  Heading: {
+    paddingTop: '40px'
+  },
+  flexGrow: {
+    flex: '1 1 auto',
   },
 });
 
@@ -21,19 +27,23 @@ class Header extends Component {
 
     render() {
         return (
-            <div>
                 <Card className={this.props.classes.card}>
-                    <CardMedia className={this.props.classes.media}
+                    <CardMedia className={this.props.classes.CSGmedia}
                         image="./csg_logo.png"
                         title="Computer Systems Group"
                     />
-                    <CardContent>
-                      <Typography type="headline" component="h1">
+                    <div className={this.props.classes.flexGrow} />
+                    <CardContent className={this.props.classes.Heading}>
+                      <Typography type="display2">
                         Computer Systems Group
                       </Typography>
                      </CardContent>
+                     <div className={this.props.classes.flexGrow} />
+                     <CardMedia className={this.props.classes.IIITmedia}
+                         image="./IIIT.png"
+                         title="IIIT Hyderbad"
+                     />
                 </Card>
-            </div>
         );
     }
 }
