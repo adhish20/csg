@@ -9,7 +9,6 @@ import { Timeline } from 'react-twitter-widgets';
 const styles = theme => ({
     card: {
       display: 'flex',
-      height: 610
     },
     flexGrow: {
       flex: 'auto',
