@@ -1,8 +1,8 @@
 {
-  "name": "csg.iiit.ac.in",
+  "name": "csg",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://adhish20.github.io/csg.iiit.ac.in",
+  "homepage": "http://adhish20.github.io/csg",
   "dependencies": {
     "material-ui": "^1.0.0-beta.22",
     "material-ui-icons": "^1.0.0-beta.17",
@@ -10,7 +10,9 @@
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-swipeable-views": "^0.12.12",
+    "react-twitter-widgets": "^1.7.1"
   },
   "scripts": {
     "predeploy": "npm run build",
