@@ -8,12 +8,12 @@ const styles = theme => ({
     display: 'flex'
   },
   CSGmedia: {
-    width: 110,
-    height: 110,
+    width: 270,
+    height: 100,
   },
   IIITmedia: {
     width: 210,
-    height: 110
+    height: 100
   },
   Heading: {
     paddingTop: '45px'

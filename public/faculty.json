@@ -1,0 +1,27 @@
+{"faculty":[
+    {
+        "key": "0",
+        "name": "Suresh Purini",
+        "position": "Assistant Professor",
+        "image": "./suresh.jpg",
+        "study": "Ph.D. (University of Maryland, Baltimore County)",
+        "researchInterests": ["Compilers", "Parallel and distributed systems", "Virtualization", "Cloud computing and complexity theory"]
+    },
+    {
+        "key": "1",
+        "name": "Lavanya Ramapantulu",
+        "position": "Assistant Professor",
+        "image": "./lavanya.jpg",
+        "study": "Ph.D. (National University of Singapore, Singapore)",
+        "researchInterests": ["Parallel and Distributed Systems", "Computer Architecture and Modelling and Performance Evaluation"]
+    },
+    {
+        "key": "2",
+        "name": "Moumita Patra",
+        "position": "Assistant Professor",
+        "image": "./moumita.jpg",
+        "study": "Ph.D. (IIT-Madras)",
+        "researchInterests": ["Wireless Adhoc Netwroks", "Vehicular Adhoc Networks", "Network Performance Analysis"]
+    }
+    ]
+}
