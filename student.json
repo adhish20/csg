@@ -1,0 +1,33 @@
+{"student":[
+    {
+        "key": "0",
+        "name": "Adhish Singla",
+        "position": "B.Tech. Hons. + MS",
+        "image": "./adhish.jpg"
+    },
+    {
+        "key": "1",
+        "name": "Shrenik Jain",
+        "position": "B.Tech. Hons. + MS",
+        "image": "./shrenik.jpg"
+    },
+    {
+        "key": "2",
+        "name": "Vinamra Banera",
+        "position": "B.Tech. Hons. + MS",
+        "image": "./vinamra.jpg"
+    },
+    {
+        "key": "3",
+        "name": "Yash Khandelwal",
+        "position": "B.Tech. Hons. + MS",
+        "image": "./yash.jpg"
+    },
+    {
+        "key": "4",
+        "name": "Ziaul Choudhury",
+        "position": "Ph.D.",
+        "image": "./ziaul.png"
+    }
+    ]
+}
