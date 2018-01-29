@@ -7,15 +7,22 @@ import Typography from 'material-ui/Typography';
 import IconButton from 'material-ui/IconButton';
 import ExpandMoreIcon from 'material-ui-icons/ExpandMore';
 import List, { ListItem, ListItemText } from 'material-ui/List';
+import Divider from 'material-ui/Divider';
 
 const styles = theme => ({
   card: {
     width: 250,
-    minHeight: 420
+    minHeight: 415,
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  flexGrow: {
+    flex: 'auto',
   },
   padding: {
-      paddingTop: 15,
-      paddingLeft: 20,
+    paddingTop: 15,
+    paddingLeft: 20,
+    paddingBottom: 5,
   },
   media: {
     height: 240,
@@ -69,34 +76,41 @@ class FacultyCard extends Component {
                       <Typography component="p">
                           {this.state.study}
                       </Typography>
-                      <CardActions>
-                      <Typography type="heading">
-                        Research Interests
-                      </Typography>
-                      <IconButton
-                            className={classnames(this.props.classes.expand, {
-                              [this.props.classes.expandOpen]: this.state.expanded,
-                            })}
-                            onClick={this.handleExpandClick}
-                            aria-expanded={this.state.expanded}
-                            aria-label="Show more"
-                          >
-                            <ExpandMoreIcon />
+                      </CardContent>
+                      <div className={this.props.classes.flexGrow}/>
+                      <CardActions disableActionSpacing>
+                          <CardContent>
+                          <Typography type="heading">
+                            Research Interests
+                          </Typography>
+                          </CardContent>
+                          <IconButton
+                                className={classnames(this.props.classes.expand, {
+                                  [this.props.classes.expandOpen]: this.state.expanded,
+                                })}
+                                onClick={this.handleExpandClick}
+                                aria-expanded={this.state.expanded}
+                              >
+                                <ExpandMoreIcon />
                           </IconButton>
                       </CardActions>
                       <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
-                      <List>
+                          <CardContent>
+                              <List>
 
-                        {this.state.researchInterests.map(function(researchInterest) {
-                            return (
-                                <ListItem button key={researchInterest}>
-                                    <ListItemText primary={researchInterest}/>
-                                </ListItem>
-                            );
-                        })}
-                      </List>
+                                {this.state.researchInterests.map(function(researchInterest) {
+                                    return (
+                                        <div>
+                                            <Divider />
+                                            <ListItem button key={researchInterest}>
+                                                <ListItemText primary={researchInterest}/>
+                                            </ListItem>
+                                        </div>
+                                    );
+                                })}
+                              </List>
+                          </CardContent>
                       </Collapse>
-                    </CardContent>
                 </Card>
             </div>
         );
