@@ -1,30 +1,30 @@
 {"faculty":[
     {
         "key": "0",
-        "name": "Lavanya Ramapantulu",
+        "name": "Suresh Purini",
         "position": "Assistant Professor",
-        "image": "./lavanya.jpg",
-        "webpage": "https://faculty.iiit.ac.in/~lavanya.r/",
-        "study": "Ph.D. (National University of Singapore, Singapore)",
-        "researchInterests": ["Parallel and Distributed Systems", "Computer Architecture", "Modelling and Performance Evaluation"]
+        "image": "./suresh.jpg",
+        "webpage": "https://www.iiit.ac.in/people/faculty/psuresh/",
+        "study": "Ph.D. (University of Maryland, Baltimore County)",
+        "researchInterests": ["Compilers", "Parallel and distributed systems", "Virtualization", "Cloud computing and complexity theory"]
     },
     {
         "key": "1",
         "name": "Moumita Patra",
         "position": "Assistant Professor",
         "image": "./moumita.jpg",
-        "webpage": "",
+        "webpage": "https://www.iiit.ac.in/people/faculty/moumita.patra/",
         "study": "Ph.D. (IIT-Madras)",
         "researchInterests": ["Wireless Adhoc Netwroks", "Vehicular Adhoc Networks", "Network Performance Analysis"]
     },
     {
         "key": "2",
-        "name": "Suresh Purini",
+        "name": "Lavanya Ramapantulu",
         "position": "Assistant Professor",
-        "image": "./suresh.jpg",
-        "webpage": "https://serc.iiit.ac.in/personal/suresh.purini",
-        "study": "Ph.D. (University of Maryland, Baltimore County)",
-        "researchInterests": ["Compilers", "Parallel and distributed systems", "Virtualization", "Cloud computing and complexity theory"]
+        "image": "./lavanya.jpg",
+        "webpage": "https://faculty.iiit.ac.in/~lavanya.r/",
+        "study": "Ph.D. (National University of Singapore, Singapore)",
+        "researchInterests": ["Parallel and Distributed Systems", "Computer Architecture", "Modelling and Performance Evaluation"]
     }
     ]
 }
