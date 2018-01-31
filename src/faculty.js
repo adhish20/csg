@@ -36,7 +36,7 @@ class Faculty extends Component {
         <div className={this.props.classes.flex}>
         {this.state.cards.map(function(card) {
           return (
-            <FacultyCard key={card.key} name={card.name} image={card.image} position={card.position} study={card.study} researchInterests={card.researchInterests}/>
+            <FacultyCard key={card.key} name={card.name} image={card.image} position={card.position} webpage={card.webpage} study={card.study} researchInterests={card.researchInterests}/>
           );
         })}
         </div>

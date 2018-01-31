@@ -47,6 +47,7 @@ class FacultyCard extends Component {
             name: props.name,
             position: props.position,
             image: props.image,
+            webpage: props.webpage,
             study: props.study,
             researchInterests: props.researchInterests,
         };
@@ -61,14 +62,16 @@ class FacultyCard extends Component {
         return (
             <div className={this.props.classes.padding}>
                 <Card className={this.props.classes.card}>
+                    <div className={this.props.classes.center}>
                     <CardMedia
                       className={this.props.classes.media}
                       image={this.state.image}
                       title={this.state.name}
                     />
+                    </div>
                     <CardContent>
                       <Typography type="title">
-                        {this.state.name}
+                        <a href={this.state.webpage} className="active">{this.state.name}</a>
                       </Typography>
                       <Typography component="p">
                           {this.state.position}
@@ -94,6 +97,7 @@ class FacultyCard extends Component {
                                 <ExpandMoreIcon />
                           </IconButton>
                       </CardActions>
+
                       <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
                           <CardContent>
                               <List>
