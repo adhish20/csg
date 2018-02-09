@@ -1,0 +1,59 @@
+{"publications":[
+    {
+        "key": "1",
+        "title": "GPUScheduler: User Level Preemptive Scheduling for NVIDIA GPUs",
+        "authors": "S Garg, K Kothapalli, S Purini",
+        "conference": "",
+        "year": "2017"
+    },
+    {
+        "key": "2",
+        "title": "Unsupervised learning based approach for plagiarism detection in programming assignments",
+        "authors": "Jitendra Yasaswi, Sri Kailash, Anil Chilupuri, Suresh Purini, CV Jawahar",
+        "conference": "Proceedings of the 10th Innovations in Software Engineering Conference",
+        "year": "2017"
+    },
+    {
+        "key": "3",
+        "title": "Fast algorithms for optimal coalition formation in federated clouds",
+        "authors": "Yash Khandelwal, Suresh Purini, Puduru V Reddy",
+        "conference": "Proceedings of the 9th International Conference on Utility and Cloud Computing",
+        "year": "2016"
+    },
+    {
+        "key": "4",
+        "title": "Anuvaad Pranaali: A RESTful API for Machine Translation",
+        "authors": "Nehal J Wani, Sharada Prasanna Mohanty, Suresh Purini, Dipti Misra Sharma",
+        "conference": "International Conference on Service-Oriented Computing",
+        "year": "2016"
+    },
+    {
+        "key": "5",
+        "title": "A DSL compiler for accelerating image processing pipelines on FPGAs",
+        "authors": "Nitin Chugh, Vinay Vasista, Suresh Purini, Uday Bondhugula",
+        "conference": "Parallel Architecture and Compilation Techniques (PACT)",
+        "year": "2016"
+    },
+    {
+        "key": "6",
+        "title": "Accurus: A fast convergence technique for accuracy configurable approximate adder circuits",
+        "authors": "Vinamra Benara, Suresh Purini",
+        "conference": "VLSI (ISVLSI), 2016 IEEE Computer Society Annual Symposium",
+        "year": "2016"
+    },
+    {
+        "key": "7",
+        "title": "Distributed safety verification using vertex centric programming model",
+        "authors": "Adhish Singla, Krishnaji Desai, Suresh Purini, Venkatesh Choppella",
+        "conference": "International Symposium on Parallel and Distributed Computing (ISPDC)",
+        "year": "2016"
+    },
+    {
+        "key": "8",
+        "title": "A Hybrid CPU+ GPU Working-Set Dictionary",
+        "authors": "Z Choudhury, S Purini, SR Krishna",
+        "conference": "International Symposium on Parallel and Distributed Computing (ISPDC)",
+        "year": "2016"
+    }
+    ]
+}

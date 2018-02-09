@@ -27,7 +27,7 @@ class Home extends Component {
                         </Typography>
                         <List>
                             <ListItem>
-                                <ListItemText primary="The Computer Systems Group (CSG) was setup in June 2017. Computer Systems Group undertakes research and development in all fundamental aspects of Computing Systems spanning across hardware and software." />
+                                <ListItemText primary="The Computer Systems Group (CSG) was set-up in June 2017. Computer Systems Group undertakes research and development in all fundamental aspects of Computing Systems spanning across hardware and software. This group is actively involved in research and imparting advanced training through workshops, seminars, and semester long courses in the fields of computer architecture, compilers, computer networks, operating systems and other related topics. As a new group CSG today has about 3 faculty members and about 15 research students including Phd, Masters and honors students working on research topics that directly contribute and make an impact on the next-generation computing hardware and software." />
                             </ListItem>
                             <ListItem>
                                 <ListItemText primary="The following are the research areas, which the group is either pursuing currently or would like to in the near future:" />
@@ -64,11 +64,11 @@ class Home extends Component {
                 <Timeline
                     dataSource={{
                         sourceType: 'profile',
-                        screenName: 'SERC_IIITH'
+                        screenName: 'csg_iiith'
                     }}
                     options={{
-                        width: 750,
-                        height: 600
+                        width: 900,
+                        height: 700
                     }}
                 />
             </Card>

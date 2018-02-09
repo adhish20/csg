@@ -30,11 +30,6 @@ class StudentCard extends Component {
         };
     }
 
-    state = { expanded: false };
-
-    handleExpandClick = () => {
-        this.setState({ expanded: !this.state.expanded });
-    };
     render() {
         return (
             <div className={this.props.classes.padding}>

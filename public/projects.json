@@ -1,0 +1,30 @@
+{"projects":[
+    {
+        "key": "1",
+        "title": "Accurus: A Fast Convergence Technique for Accuracy Configurable Approximate Adder Circuits",
+        "people": "Vinamra Benara, Suresh Purini",
+        "researchArea": "Low Power VLSI",
+        "keywords": "Accuracy Configurable Approximate Arithmetic Circuits",
+        "summary": "Approximate computing techniques have paved new paths to get substantial improvement in speed and power efficiency by making a trade-off with the accuracy of computations in inherently error tolerant applications, like from image and video processing domains. The accuracy requirements of various applications can differ from each other. Even within a same application different computations can have different accuracy requirements which can vary over time and upon user requirements. Accuracy configurable arithmetic circuits are essential for these reasons. Such techniques proposed earlier in the literature (ACA) work by improving the accuracy over several pipeline stages. However, those techniques suffer from the drawback that the corrections being made in the initial pipeline stages are small in magnitude as they are performed from the least significant bit position. In this work, we propose a new correction technique - Accurus wherein we start from the most significant bit resulting in fast convergence of the result towards the accurate one. We used our approximate adder circuit in a Gaussian Blur filter which is then applied to an image. After one stage of correction, we achieved a peak signal to noise ratio of 40.90 dB when compared with 25.59 dB obtained using the previous well-known technique (ACA).",
+        "potentialApps": "Basic blocks in designing accelerators for image processing and computer vision applications"
+    },
+    {
+        "key": "2",
+        "title": "Code generation and optimization techniques for Domain Specific Language (DSL) compilers targeting FPGA architectures",
+        "people": "Nitin Chugh, Vinay Vasista, Suresh Purini, Uday Bondhugula",
+        "researchArea": "Compilers and Computer Architecture",
+        "keywords": "Accelerators, FPGAs, Compilers",
+        "summary": "This project develops an automatic approach to accelerate image processing pipelines using FPGAs. An image processing pipeline can be viewed as a graph of interconnected stages that processes images successively. Each stage typically performs a point-wise, stencil, or other more complex operations on image pixels. Recent efforts have led to the development of domain-specific languages (DSL) and optimization frameworks for image processing pipelines. In this project, we develop an approach to map image processing pipelines expressed in the PolyMage DSL (proposed by Prof. Uday Bondhugula’s group in IISc, Bangalore) to efficient parallel FPGA designs. Our approach exploits reuse and available memory bandwidth (or chip resources) maximally. When compared to Darkroom, a state-of-the-art approach to compile high-level DSL to FPGAs, our approach (a) leads to designs that deliver significantly higher throughput, and (b) supports a greater variety of filters. Furthermore, the designs we generate obtain an improvement even over pre-optimized FPGA implementations provided by vendor libraries for some of the benchmarks.",
+        "potentialApps": "Embedded image processing applications"
+    },
+    {
+        "key": "3",
+        "title": "Smart Water Meter",
+        "people": "Suresh Purini and Syed Azeemuddin",
+        "researchArea": "Internet of Things",
+        "keywords": "Smart Wireless Water Meter",
+        "summary": "Water is an essential natural resource for sustenance of life. Due to population explosion and unsustainable practices employed by human civilization, there is an acute shortage of water which is going to further worsen in future. There is an absolute necessity to measure and monitor the water distribution systems so that the available supply is optimally utilized. Towards this cause, we are building a low cost smart water meter using which water supply to individual households and communities can be monitored in real time. Further, using data analytics, we can address problems such as pipeline leakage isolation etc.",
+        "potentialApps": ""
+    }
+    ]
+}

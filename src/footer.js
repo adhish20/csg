@@ -20,7 +20,7 @@ class Footer extends Component {
                 <Card className={this.props.classes.card}>
                     <CardContent>
                         <Typography type="heading">
-                            <Icon>copyright</Icon> 2017 Computer Systems Group (CSG), IIIT-Hyderabad.
+                            <Icon>copyright</Icon> 2018 Computer Systems Group (CSG), IIIT-Hyderabad.
                         </Typography>
                     </CardContent>
                     <div className={this.props.classes.flexGrow} />

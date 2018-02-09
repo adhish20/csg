@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header';
 import Navbar from './navbar';
-import { Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './home';
 import Faculty from './faculty';
 import Students from './students';
@@ -13,19 +13,21 @@ import Footer from './footer';
 class App extends Component {
   render() {
     return (
-        <div>
-            <Header />
-            <Navbar />
-            <Switch>
-                <Route exact path='/' component={Home}/>
-                <Route exact path='/faculty' component={Faculty}/>
-                <Route exact path='/students' component={Students}/>
-                <Route exact path='/projects' component={Projects}/>
-                <Route exact path='/events' component={Events}/>
-                <Route exact path='/publications' component={Publications}/>
-            </Switch>
-            <Footer />
-        </div>
+            <Router>
+                <div>
+                    <Header />
+                    <Navbar />
+                    <Switch>
+                        <Route exact path='/' component={Home}/>
+                        <Route exact path='/faculty' component={Faculty}/>
+                        <Route exact path='/students' component={Students}/>
+                        <Route exact path='/projects' component={Projects}/>
+                        <Route exact path='/events' component={Events}/>
+                        <Route exact path='/publications' component={Publications}/>
+                    </Switch>
+                    <Footer />
+                </div>
+            </Router>
     );
   }
 }
