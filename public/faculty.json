@@ -10,15 +10,6 @@
     },
     {
         "key": "1",
-        "name": "Moumita Patra",
-        "position": "Assistant Professor",
-        "image": "./moumita.jpg",
-        "webpage": "https://www.iiit.ac.in/people/faculty/moumita.patra/",
-        "study": "Ph.D. (IIT-Madras)",
-        "researchInterests": ["Wireless Adhoc Netwroks", "Vehicular Adhoc Networks", "Network Performance Analysis"]
-    },
-    {
-        "key": "2",
         "name": "Lavanya Ramapantulu",
         "position": "Assistant Professor",
         "image": "./lavanya.jpg",
